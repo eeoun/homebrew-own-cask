@@ -2,6 +2,7 @@ cask "node" do
   version "15.7.0"
   sha256 "2dbfa3cc5f4cfc78b9ffe492b9debe85219c154f50ec4a7aee2a00ef10f9ed37"
   
+  shasum256url "https://nodejs.org/dist/v#{version}/SHASUMS256.txt"
   url "https://nodejs.org/dist/v#{version}/node-v#{version}.pkg"
   
   appcast "https://nodejs.org/en/download/current/"
