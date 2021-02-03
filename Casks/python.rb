@@ -14,8 +14,5 @@ cask "python" do
   
   pkg "python-#{version}-macos11.0.pkg"
 
-  uninstall pkgutil: ["org.python.Python.PythonUnixTools-3.9"
-                      ,"org.python.Python.PythonApplications-3.9"
-                      ,"org.python.Python.PythonDocumentation-3.9"
-                      ,"org.python.Python.PythonFramework-3.9"]
+  uninstall pkgutil: ["org.python.Python.PythonUnixTools-3.9","org.python.Python.PythonApplications-3.9","org.python.Python.PythonDocumentation-3.9","org.python.Python.PythonFramework-3.9"]
 end
