@@ -1,6 +1,6 @@
 cask "minimal-racket-cs" do
-  version "7.9"
-  sha256 "cae591bfffd2095b52a6c7d738c8798b0b78e7adddc3759922e59e75e439813c"
+  version "8.0"
+  sha1 "02e1b9bfba28df6587aa68f6868bab145b4c7c34"
   url "https://mirror.racket-lang.org/installers/#{version}/racket-minimal-#{version}-x86_64-macosx-cs.tgz"
   
   appcast "https://download.racket-lang.org/all-versions.html"
