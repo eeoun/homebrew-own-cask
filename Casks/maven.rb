@@ -1,6 +1,6 @@
 cask "maven" do
   version "3.8.1"
-  sha256 "26ad91d751b3a9a53087aefa743f4e16a17741d3915b219cf74112bf87a438c5"
+  # sha256 "26ad91d751b3a9a53087aefa743f4e16a17741d3915b219cf74112bf87a438c5"
   # https://downloads.apache.org/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.zip.sha512
   
   url "https://downloads.apache.org/maven/maven-3/#{version}/binaries/apache-maven-#{version}-bin.tar.gz"
